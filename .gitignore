@@ -134,3 +134,5 @@ dmypy.json
 *.pth
 *.txt
 *events.out.*
+*.wav
+*.mp3
