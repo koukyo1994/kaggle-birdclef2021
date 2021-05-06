@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-72-generic-x86_64-with-glibc2.10",
+    "python": "3.8.3",
+    "heartbeatAt": "2021-05-05T16:13:27.959072",
+    "startedAt": "2021-05-05T16:13:24.278281",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "exp/exp026_020_pl.py",
+    "program": "exp026_020_pl.py",
+    "git": {
+        "remote": "git@github.com:/koukyo1994/kaggle-birdclef2021",
+        "commit": "cf52dfe9a9353ea6e6698cfe6171ad1fb1db0d01"
+    },
+    "email": "arabiannight1994@yahoo.co.jp",
+    "root": "/home/arai/github/koukyo1994/kaggle-birdclef2021",
+    "host": "arai",
+    "username": "arai",
+    "executable": "/home/arai/anaconda3/envs/pytorch/bin/python"
+}

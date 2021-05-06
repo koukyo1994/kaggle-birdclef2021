@@ -300,7 +300,7 @@ class TorchAudioWaveformDataset(torchdata.Dataset):
             else:
                 start = 0
             y, _ = torchaudio.load(
-                path, num_frames=effective_length, offset=start)
+                path, num_frames=effective_length, frame_offset=start)
             return y[0].float()
         else:
             y, _ = torchaudio.load(path)
@@ -368,7 +368,7 @@ class TorchAudioWaveformDataset(torchdata.Dataset):
         start = np.random.randint(background_length - effective_length)
         background_path = np.random.choice(self.background_paths)
         y_background = torchaudio.load(
-            background_path, offset=start, num_frames=effective_length
+            background_path, frame_offset=start, num_frames=effective_length
         )[0][0].float()
         y_background = self.__resolve_nan(y_background)
 

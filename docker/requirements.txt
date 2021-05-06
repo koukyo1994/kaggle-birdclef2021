@@ -1,0 +1,8 @@
+albumentations==0.5.2
+colorednoise==1.1.1
+iterative-stratification==0.1.6
+pytorch-lightning==1.1.8
+timm==0.4.5
+torchaudio==0.8.0
+torchlibrosa==0.0.4
+wandb==0.10.19

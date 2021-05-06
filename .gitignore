@@ -132,7 +132,7 @@ dmypy.json
 *.ogg
 *.csv
 *.pth
-*.txt
 *events.out.*
 *.wav
 *.mp3
+*.ckpt

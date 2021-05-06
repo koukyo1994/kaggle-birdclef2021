@@ -1,0 +1,563 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.10.19
+    framework: lightning
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.3
+    t:
+      1:
+      - 1
+      - 5
+      - 9
+      2:
+      - 1
+      - 5
+      - 9
+      4: 3.8.3
+      5: 0.10.19
+base_model_name:
+  desc: null
+  value: tf_efficientnet_b0_ns
+base_optimizer:
+  desc: null
+  value: Adam
+epochs:
+  desc: null
+  value: 75
+fmax:
+  desc: null
+  value: 16000
+fmin:
+  desc: null
+  value: 300
+fold:
+  desc: null
+  value: 0
+folds:
+  desc: null
+  value:
+  - 0
+hop_length:
+  desc: null
+  value: 768
+img_size:
+  desc: null
+  value: 224
+in_channels:
+  desc: null
+  value: 1
+loader_params/test/batch_size:
+  desc: null
+  value: 64
+loader_params/test/num_workers:
+  desc: null
+  value: 20
+loader_params/test/shuffle:
+  desc: null
+  value: false
+loader_params/train/batch_size:
+  desc: null
+  value: 64
+loader_params/train/num_workers:
+  desc: null
+  value: 20
+loader_params/train/shuffle:
+  desc: null
+  value: true
+loader_params/valid/batch_size:
+  desc: null
+  value: 64
+loader_params/valid/num_workers:
+  desc: null
+  value: 20
+loader_params/valid/shuffle:
+  desc: null
+  value: false
+loss_name:
+  desc: null
+  value: BCEFocal2WayLoss
+main_metric:
+  desc: null
+  value: epoch_f1_at_05
+minimize_metric:
+  desc: null
+  value: false
+n_fft:
+  desc: null
+  value: 2048
+n_mels:
+  desc: null
+  value: 224
+num_classes:
+  desc: null
+  value: 397
+optimizer_name:
+  desc: null
+  value: Adam
+optimizer_params/lr:
+  desc: null
+  value: 0.001
+period:
+  desc: null
+  value: 20
+pooling:
+  desc: null
+  value: max
+pretrained:
+  desc: null
+  value: true
+rand:
+  desc: null
+  value: 7841520
+sample_rate:
+  desc: null
+  value: 32000
+scheduler_name:
+  desc: null
+  value: CosineAnnealingLR
+scheduler_params/T_max:
+  desc: null
+  value: 10
+seed:
+  desc: null
+  value: 1213
+split:
+  desc: null
+  value: StratifiedKFold
+split_params/n_splits:
+  desc: null
+  value: 5
+split_params/random_state:
+  desc: null
+  value: 1213
+split_params/shuffle:
+  desc: null
+  value: true
+target_columns:
+  desc: null
+  value:
+  - acafly
+  - acowoo
+  - aldfly
+  - ameavo
+  - amecro
+  - amegfi
+  - amekes
+  - amepip
+  - amered
+  - amerob
+  - amewig
+  - amtspa
+  - andsol1
+  - annhum
+  - astfly
+  - azaspi1
+  - babwar
+  - baleag
+  - balori
+  - banana
+  - banswa
+  - banwre1
+  - barant1
+  - barswa
+  - batpig1
+  - bawswa1
+  - bawwar
+  - baywre1
+  - bbwduc
+  - bcnher
+  - belkin1
+  - belvir
+  - bewwre
+  - bkbmag1
+  - bkbplo
+  - bkbwar
+  - bkcchi
+  - bkhgro
+  - bkmtou1
+  - bknsti
+  - blbgra1
+  - blbthr1
+  - blcjay1
+  - blctan1
+  - blhpar1
+  - blkpho
+  - blsspa1
+  - blugrb1
+  - blujay
+  - bncfly
+  - bnhcow
+  - bobfly1
+  - bongul
+  - botgra
+  - brbmot1
+  - brbsol1
+  - brcvir1
+  - brebla
+  - brncre
+  - brnjay
+  - brnthr
+  - brratt1
+  - brwhaw
+  - brwpar1
+  - btbwar
+  - btnwar
+  - btywar
+  - bucmot2
+  - buggna
+  - bugtan
+  - buhvir
+  - bulori
+  - burwar1
+  - bushti
+  - butsal1
+  - buwtea
+  - cacgoo1
+  - cacwre
+  - calqua
+  - caltow
+  - cangoo
+  - canwar
+  - carchi
+  - carwre
+  - casfin
+  - caskin
+  - caster1
+  - casvir
+  - categr
+  - ccbfin
+  - cedwax
+  - chbant1
+  - chbchi
+  - chbwre1
+  - chcant2
+  - chispa
+  - chswar
+  - cinfly2
+  - clanut
+  - clcrob
+  - cliswa
+  - cobtan1
+  - cocwoo1
+  - cogdov
+  - colcha1
+  - coltro1
+  - comgol
+  - comgra
+  - comloo
+  - commer
+  - compau
+  - compot1
+  - comrav
+  - comyel
+  - coohaw
+  - cotfly1
+  - cowscj1
+  - cregua1
+  - creoro1
+  - crfpar
+  - cubthr
+  - daejun
+  - dowwoo
+  - ducfly
+  - dusfly
+  - easblu
+  - easkin
+  - easmea
+  - easpho
+  - eastow
+  - eawpew
+  - eletro
+  - eucdov
+  - eursta
+  - fepowl
+  - fiespa
+  - flrtan1
+  - foxspa
+  - gadwal
+  - gamqua
+  - gartro1
+  - gbbgul
+  - gbwwre1
+  - gcrwar
+  - gilwoo
+  - gnttow
+  - gnwtea
+  - gocfly1
+  - gockin
+  - gocspa
+  - goftyr1
+  - gohque1
+  - goowoo1
+  - grasal1
+  - grbani
+  - grbher3
+  - grcfly
+  - greegr
+  - grekis
+  - grepew
+  - grethr1
+  - gretin1
+  - greyel
+  - grhcha1
+  - grhowl
+  - grnher
+  - grnjay
+  - grtgra
+  - grycat
+  - gryhaw2
+  - gwfgoo
+  - haiwoo
+  - heptan
+  - hergul
+  - herthr
+  - herwar
+  - higmot1
+  - hofwoo1
+  - houfin
+  - houspa
+  - houwre
+  - hutvir
+  - incdov
+  - indbun
+  - kebtou1
+  - killde
+  - labwoo
+  - larspa
+  - laufal1
+  - laugul
+  - lazbun
+  - leafly
+  - leasan
+  - lesgol
+  - lesgre1
+  - lesvio1
+  - linspa
+  - linwoo1
+  - littin1
+  - lobdow
+  - lobgna5
+  - logshr
+  - lotduc
+  - lotman1
+  - lucwar
+  - macwar
+  - magwar
+  - mallar3
+  - marwre
+  - mastro1
+  - meapar
+  - melbla1
+  - monoro1
+  - mouchi
+  - moudov
+  - mouela1
+  - mouqua
+  - mouwar
+  - mutswa
+  - naswar
+  - norcar
+  - norfli
+  - normoc
+  - norpar
+  - norsho
+  - norwat
+  - nrwswa
+  - nutwoo
+  - oaktit
+  - obnthr1
+  - ocbfly1
+  - oliwoo1
+  - olsfly
+  - orbeup1
+  - orbspa1
+  - orcpar
+  - orcwar
+  - orfpar
+  - osprey
+  - ovenbi1
+  - pabspi1
+  - paltan1
+  - palwar
+  - pasfly
+  - pavpig2
+  - phivir
+  - pibgre
+  - pilwoo
+  - pinsis
+  - pirfly1
+  - plawre1
+  - plaxen1
+  - plsvir
+  - plupig2
+  - prowar
+  - purfin
+  - purgal2
+  - putfru1
+  - pygnut
+  - rawwre1
+  - rcatan1
+  - rebnut
+  - rebsap
+  - rebwoo
+  - redcro
+  - reevir1
+  - rehbar1
+  - relpar
+  - reshaw
+  - rethaw
+  - rewbla
+  - ribgul
+  - rinkin1
+  - roahaw
+  - robgro
+  - rocpig
+  - rotbec
+  - royter1
+  - rthhum
+  - rtlhum
+  - ruboro1
+  - rubpep1
+  - rubrob
+  - rubwre1
+  - ruckin
+  - rucspa1
+  - rucwar
+  - rucwar1
+  - rudpig
+  - rudtur
+  - rufhum
+  - rugdov
+  - rumfly1
+  - runwre1
+  - rutjac1
+  - saffin
+  - sancra
+  - sander
+  - savspa
+  - saypho
+  - scamac1
+  - scatan
+  - scbwre1
+  - scptyr1
+  - scrtan1
+  - semplo
+  - shicow
+  - sibtan2
+  - sinwre1
+  - sltred
+  - smbani
+  - snogoo
+  - sobtyr1
+  - socfly1
+  - solsan
+  - sonspa
+  - soulap1
+  - sposan
+  - spotow
+  - spvear1
+  - squcuc1
+  - stbori
+  - stejay
+  - sthant1
+  - sthwoo1
+  - strcuc1
+  - strfly1
+  - strsal1
+  - stvhum2
+  - subfly
+  - sumtan
+  - swaspa
+  - swathr
+  - tenwar
+  - thbeup1
+  - thbkin
+  - thswar1
+  - towsol
+  - treswa
+  - trogna1
+  - trokin
+  - tromoc
+  - tropar
+  - tropew1
+  - tuftit
+  - tunswa
+  - veery
+  - verdin
+  - vigswa
+  - warvir
+  - wbwwre1
+  - webwoo1
+  - wegspa1
+  - wesant1
+  - wesblu
+  - weskin
+  - wesmea
+  - westan
+  - wewpew
+  - whbman1
+  - whbnut
+  - whcpar
+  - whcsee1
+  - whcspa
+  - whevir
+  - whfpar1
+  - whimbr
+  - whiwre1
+  - whtdov
+  - whtspa
+  - whwbec1
+  - whwdov
+  - wilfly
+  - willet1
+  - wilsni1
+  - wiltur
+  - wlswar
+  - wooduc
+  - woothr
+  - wrenti
+  - y00475
+  - yebcha
+  - yebela1
+  - yebfly
+  - yebori1
+  - yebsap
+  - yebsee1
+  - yefgra1
+  - yegvir
+  - yehbla
+  - yehcar1
+  - yelgro
+  - yelwar
+  - yeofly1
+  - yerwar
+  - yeteup1
+  - yetvir
+train:
+  desc: null
+  value: true
+train_background:
+  desc: null
+  value: ../input/birdclef-2021/train_background
+train_csv:
+  desc: null
+  value: ../input/birdclef-2021/train_metadata.csv
+train_datadir:
+  desc: null
+  value: ../input/birdclef-2021/train_short_audio
+train_soundscape:
+  desc: null
+  value: ../input/birdclef-2021/train_soundscape_labels.csv
+transforms/train:
+  desc: null
+  value:
+  - name: TorchPinkNoise
+    params:
+      min_snr: 5
+transforms/valid:
+  desc: null
+  value: None
