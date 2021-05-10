@@ -1,0 +1,20 @@
+[2021-05-09 22:57:43,718] 
+1/75 * Epoch 1 (_base): lr=0.0009 | momentum=0.9000
+1/75 * Epoch 1 (train): epoch_f1_at_03=0.0001 | epoch_f1_at_05=5.443e-05 | epoch_f1_at_07=4.533e-05 | epoch_mAP=0.0093 | f1_at_03=0.0001 | f1_at_05=5.443e-05 | f1_at_07=4.533e-05 | loss=0.0220 | mAP=0.0354
+1/75 * Epoch 1 (valid): epoch_f1_at_03=0.000e+00 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0133 | f1_at_03=0.000e+00 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0065 | mAP=0.0136
+[2021-05-09 23:10:26,653] 
+2/75 * Epoch 2 (_base): lr=0.0007 | momentum=0.9000
+2/75 * Epoch 2 (train): epoch_f1_at_03=0.000e+00 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0166 | f1_at_03=0.000e+00 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0096 | mAP=0.0553
+2/75 * Epoch 2 (valid): epoch_f1_at_03=0.0001 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0392 | f1_at_03=0.0001 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0062 | mAP=0.0192
+[2021-05-09 23:23:13,416] 
+3/75 * Epoch 3 (_base): lr=0.0003 | momentum=0.9000
+3/75 * Epoch 3 (train): epoch_f1_at_03=0.0001 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0339 | f1_at_03=0.0001 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0091 | mAP=0.0828
+3/75 * Epoch 3 (valid): epoch_f1_at_03=0.0017 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0576 | f1_at_03=0.0017 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0064 | mAP=0.0205
+[2021-05-09 23:36:04,557] 
+4/75 * Epoch 4 (_base): lr=9.549e-05 | momentum=0.9000
+4/75 * Epoch 4 (train): epoch_f1_at_03=0.0027 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0560 | f1_at_03=0.0027 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0087 | mAP=0.1029
+4/75 * Epoch 4 (valid): epoch_f1_at_03=0.0081 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0890 | f1_at_03=0.0081 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0059 | mAP=0.0213
+[2021-05-09 23:48:42,739] 
+5/75 * Epoch 5 (_base): lr=0.000e+00 | momentum=0.9000
+5/75 * Epoch 5 (train): epoch_f1_at_03=0.0057 | epoch_f1_at_05=0.000e+00 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.0780 | f1_at_03=0.0057 | f1_at_05=0.000e+00 | f1_at_07=0.000e+00 | loss=0.0085 | mAP=0.1163
+5/75 * Epoch 5 (valid): epoch_f1_at_03=0.0360 | epoch_f1_at_05=0.0002 | epoch_f1_at_07=0.000e+00 | epoch_mAP=0.1460 | f1_at_03=0.0360 | f1_at_05=0.0002 | f1_at_07=0.000e+00 | loss=0.0053 | mAP=0.0241
