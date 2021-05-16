@@ -136,3 +136,5 @@ dmypy.json
 *.wav
 *.mp3
 *.ckpt
+*.npz
+*.zip
